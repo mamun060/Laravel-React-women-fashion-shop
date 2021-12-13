@@ -1,0 +1,92 @@
+.TopContainer {
+    background-color: #000;
+    
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo h2{
+    font-family:  'Courier New';
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.search {
+    display: flex;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inputs {
+    padding: 8px  100px;
+    border-radius: 50px;
+    border: 1px solid #d35400;
+}
+
+.inputs:focus {
+    outline: none;
+}
+
+.btnpostion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    padding-right: 20px;
+    margin: 0;
+    top: 0;
+    right: 0;
+}
+.signin {
+    padding-right: 10px;
+}
+
+.btnpostion p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Courier New';
+    letter-spacing: 0;
+    line-height: 0;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+
+.signin a {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #d35400;
+    border-radius: 50px;
+    text-align: center;
+}
+.signin a:hover {
+    background-color: #d35400;
+    color: #fff;
+    opacity: 0.8;
+    transition: 0.2s ease-in;
+}
+.cart a {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #d35400;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.cart a:hover {
+    background-color: #d35400;
+    opacity: 0.8;
+    transition: 0.2s ease-in;
+    color: #fff;
+}

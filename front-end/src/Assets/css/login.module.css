@@ -1,0 +1,75 @@
+.LoginFormWrap{
+   margin: 80px;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.FormStyling {
+    padding: 40px!important;
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .FormStyling{
+       margin: 20px;
+       padding: 20px;
+       box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    }
+}
+
+.LoginLabel {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.checkBox {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.LoginButton {
+    text-align: center;
+    padding: 10px 50px;
+}
+
+/* Login and Register button*/
+
+.btnStyle {
+    display: flex;
+    margin-bottom: 20px;
+}
+.OneButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50px;
+    background-color: #130f40;
+}
+.OneButton p{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.TwoButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50px;
+    background-color: #d63031;
+}
+.TwoButton p{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}

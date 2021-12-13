@@ -1,0 +1,25 @@
+ .AboutWrap {
+     margin-top: 50px;
+     text-align: left;
+ }
+
+ .AboutTitle {
+     font-size: 32px;
+     color: orange;
+     font-weight: 600;
+     line-height: 15px;
+     text-align: left;
+     padding: 20px 0 30px 0;
+ }
+
+ .AboutContent {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2;
+    text-align: left;
+    padding: 0 0 30px 0;
+    font-family: sans-serif;
+    text-transform: normal;
+ }
