@@ -4,6 +4,7 @@ import NavHeader from '../Components/common/NavHeader';
 import TopFooter from '../Components/common/TopFooter';
 import CopyRight from '../Components/common/CopyRight';
 import Registration from '../Components/others/Registration';
+import Announcement from '../Components/common/Announcement';
 
 class RegistrationPage extends Component {
     constructor(props) {
@@ -13,6 +14,7 @@ class RegistrationPage extends Component {
     render() { 
         return ( 
             <Fragment>
+                <Announcement />
                  <TopNavbar />
                    <NavHeader /> 
                      <Registration />

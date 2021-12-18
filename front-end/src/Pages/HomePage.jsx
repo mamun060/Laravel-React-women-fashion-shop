@@ -15,12 +15,14 @@ import BottomBanner from '../Components/home/BottomBanner';
 import BigBannerBottom from '../Components/home/BigBannerBottom';
 import BigBanner from '../../src/Assets/images/bottomBanner/Untitled-16_1200x.jpg';
 import CopyRight from '../Components/common/CopyRight';
+import Announcement from '../Components/common/Announcement';
 
 
 class HomePage extends Component {
     render() { 
         return (
             <Fragment>
+                 <Announcement />
                 <TopNavbar />
                 <NavHeader />
                 <TopSlider />

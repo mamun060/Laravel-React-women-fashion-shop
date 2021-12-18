@@ -43,3 +43,13 @@
   padding-right: 0!important;
   padding-left: 0!important;
 }
+
+a {
+  text-decoration: none;
+}
+
+
+/* product details css*/
+.accordion-button {
+  padding: 6px 1.25rem!important;
+}

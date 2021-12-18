@@ -1,92 +1,74 @@
 .TopContainer {
-    background-color: #000;
-    
+    background-color: #fff;
+    margin: 5px 0px;
 }
 .logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding-left: 100px;
 }
-.logo h2{
+.logo h2 a{
     font-family:  'Courier New';
     font-size: 32px;
     font-weight: 600;
-    color: #fff;
+    color: #000;
     padding-left: 50px;
     padding-top: 15px;
+    text-align: center;
 }
 
-.search {
-    display: flex;
-    height: 80px;
-    justify-content: flex-start;
-    align-items: center;
+.SearchSection {
+    width: 500px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    background-color: #ecf0f1;
 }
-
-.inputs {
-    padding: 8px  100px;
-    border-radius: 50px;
-    border: 1px solid #d35400;
+.SearchSection input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    background-color: #ecf0f1;
+    
 }
-
-.inputs:focus {
+.SearchSection input:focus {
     outline: none;
 }
 
-.btnpostion {
+.SearchSection input{
+    padding-left: 20px;
+}
+
+
+.HeaderIcons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
-    height: 80px;
-    padding-right: 20px;
-    margin: 0;
-    top: 0;
-    right: 0;
-}
-.signin {
-    padding-right: 10px;
+    float: right;
+    padding-right: 150px;
 }
 
-.btnpostion p {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Courier New';
-    letter-spacing: 0;
-    line-height: 0;
-    padding-top: 15px;
-    text-transform: capitalize;
-}
-
-.signin a {
-    color: #fff;
-    font-size: 16px;
-    padding: 8px 20px;
-    text-decoration: none;
-    background-color: #d35400;
-    border-radius: 50px;
+.HeaderIcons p{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bdc3c7;
+    margin: 10px;
     text-align: center;
-}
-.signin a:hover {
-    background-color: #d35400;
-    color: #fff;
-    opacity: 0.8;
-    transition: 0.2s ease-in;
-}
-.cart a {
-    color: #fff;
-    font-size: 16px;
-    padding: 8px 20px;
-    text-decoration: none;
-    background-color: #d35400;
-    border-radius: 50px;
     text-align: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
 }
 
-.cart a:hover {
-    background-color: #d35400;
-    opacity: 0.8;
-    transition: 0.2s ease-in;
-    color: #fff;
+.HeaderIcons p a {
+    font-size: 18px;
+    color: #000;
 }
+
+.HeaderIcons p:hover{
+    transform: scale(1.1);
+}
+

@@ -6,9 +6,9 @@ import one from '../../Assets/images/product/01.jpg';
 import two from '../../Assets/images/product/02.jpg';
 import three from '../../Assets/images/product/03.jpg';
 import four from '../../Assets/images/product/04.jpg';
-import { BsFillSuitHeartFill } from "react-icons/bs";
-import { BsBucketFill } from "react-icons/bs";
-import { BsCartFill } from "react-icons/bs";
+import { BsHeart } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
+import { BsCart2 } from "react-icons/bs";
 
 
 class Product extends Component {
@@ -25,184 +25,94 @@ class Product extends Component {
                     <Row className={styles.ProductContainer}>
 
                         <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
+                           <Card className={styles.CardStyle}>
                             <img className={styles.ProductImg} src={one} alt="" />
                             <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
+
+                                <div className={styles.ProductInfo}> 
+                                    <div className={styles.PriceInfo}>
+                                        <h2 className={styles.ProductPrice}>Tk. 100.00  <span><del>Tk. 120.00</del></span></h2>
+                                        <p><a href="#">Buy Now</a></p>
+                                    </div>
+                                <p className={styles.ProductTitle}><a href='#'>This elegant, 100% viscose Kabli This elegant, 100% viscose</a></p>
                                 </div>
+
+                                <div className={styles.ProductTools}>
+                                    <p className={styles.Wishlist}><a href="#"> <BsHeart /></a></p>
+                                    <p className={styles.Search}><a href="#"><BsSearch /></a></p>
+                                    <p className={styles.AddToCard}><a href="#"><BsCart2 /></a></p>
+                                </div>
+
                             </Card.Body>
                             </Card>
                         </Col>
-
                         <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
+                           <Card className={styles.CardStyle}>
                             <img className={styles.ProductImg} src={two} alt="" />
                             <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
+
+                                <div className={styles.ProductInfo}> 
+                                    <div className={styles.PriceInfo}>
+                                        <h2 className={styles.ProductPrice}>Tk. 100.00  <span><del>Tk. 120.00</del></span></h2>
+                                        <p><a href="#">Buy Now</a></p>
+                                    </div>
+                                <p className={styles.ProductTitle}><a href='#'>This elegant, 100% viscose Kabli This elegant, 100% viscose</a></p>
                                 </div>
+
+                                <div className={styles.ProductTools}>
+                                    <p className={styles.Wishlist}><a href="#"> <BsHeart /></a></p>
+                                    <p className={styles.Search}><a href="#"><BsSearch /></a></p>
+                                    <p className={styles.AddToCard}><a href="#"><BsCart2 /></a></p>
+                                </div>
+
                             </Card.Body>
                             </Card>
                         </Col>
-
                         <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
+                           <Card className={styles.CardStyle}>
                             <img className={styles.ProductImg} src={three} alt="" />
                             <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
+
+                                <div className={styles.ProductInfo}> 
+                                    <div className={styles.PriceInfo}>
+                                        <h2 className={styles.ProductPrice}>Tk. 100.0  <span><del>Tk. 120.0</del></span></h2>
+                                        <p><a href="#">Buy Now</a></p>
+                                    </div>
+                                <p className={styles.ProductTitle}><a href='#'>This elegant, 100% viscose Kabli This elegant, 100% viscose</a></p>
                                 </div>
+
+                                <div className={styles.ProductTools}>
+                                    <p className={styles.Wishlist}><a href="#"> <BsHeart /></a></p>
+                                    <p className={styles.Search}><a href="#"><BsSearch /></a></p>
+                                    <p className={styles.AddToCard}><a href="#"><BsCart2 /></a></p>
+                                </div>
+
                             </Card.Body>
                             </Card>
                         </Col>
-
                         <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
+                           <Card className={styles.CardStyle}>
                             <img className={styles.ProductImg} src={four} alt="" />
                             <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
+
+                                <div className={styles.ProductInfo}> 
+                                    <div className={styles.PriceInfo}>
+                                        <h2 className={styles.ProductPrice}>Tk. 100.00  <span><del>Tk. 120.00</del></span></h2>
+                                        <p><a href="#">Buy Now</a></p>
+                                    </div>
+                                <p className={styles.ProductTitle}><a href='#'>This elegant, 100% viscose Kabli This elegant, 100% viscose</a></p>
                                 </div>
+
+                                <div className={styles.ProductTools}>
+                                    <p className={styles.Wishlist}><a href="#"> <BsHeart /></a></p>
+                                    <p className={styles.Search}><a href="#"><BsSearch /></a></p>
+                                    <p className={styles.AddToCard}><a href="#"><BsCart2 /></a></p>
+                                </div>
+
                             </Card.Body>
                             </Card>
                         </Col>
 
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={one} alt="" />
-                            <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
-                                </div>
-                            </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={two} alt="" />
-                            <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
-                                </div>
-                            </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={three} alt="" />
-                            <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
-                                </div>
-                            </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={four} alt="" />
-                            <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
-                                </div>
-                            </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={one} alt="" />
-                            <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
-                                </div>
-                            </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={two} alt="" />
-                            <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
-                                </div>
-                            </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={three} alt="" />
-                            <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
-                                </div>
-                            </Card.Body>
-                            </Card>
-                        </Col>
-
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={four} alt="" />
-                            <Card.Body>
-                                <p className={styles.ProductTitle}>Curtics Cumis</p>
-                                <h2 className={styles.ProductPrice}>Tk: 100.00</h2>
-                                <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsFillSuitHeartFill /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCartFill /></a></p>
-                                    <p className={styles.BuyNow}><a href="#"><BsBucketFill /></a></p>
-                                </div>
-                            </Card.Body>
-                            </Card>
-                        </Col>
                     </Row>
                     
                 </Container>

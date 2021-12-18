@@ -4,6 +4,7 @@ import NavHeader from '../Components/common/NavHeader';
 import About from '../Components/others/About';
 import TopFooter from '../Components/common/TopFooter';
 import CopyRight from '../Components/common/CopyRight';
+import Announcement from '../Components/common/Announcement';
 
 class AboutPage extends Component {
     constructor(props) {
@@ -13,6 +14,7 @@ class AboutPage extends Component {
     render() { 
         return ( 
             <Fragment>
+                 <Announcement />
                  <TopNavbar />
                 <NavHeader />
 

@@ -14,7 +14,6 @@ class TopHeader extends Component {
                             <ul className={styles.UnderLine}>
                                 <li className={styles.ListIineStyle}><Link to="/">Home</Link></li>
                                 <li className={styles.ListIineStyle}><Link to="/about">About</Link></li>
-                                <li className={styles.ListIineStyle}><Link to="#">Service</Link></li>
                                 <li className={`${styles.ListIineStyle} ${styles.DropdownContainer}`}><Link to="/product">Product</Link>
                                     <ul className={`${styles.UnderLine} ${styles.DropdownStyle}`}>
                                     <li className={styles.ListIineStyle}><a>Home</a></li>
