@@ -1,0 +1,39 @@
+.CheckoutContainer {
+    padding: 50px 0px;
+}
+
+.CheckoutContainer label {
+    float: left;
+}
+
+.leftTitle h2 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    padding: 20px 0px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.SubmitButton {
+    float: left;
+}
+
+/* right side styling */
+.RightSide {
+    padding-left: 20px;
+}
+.RightTitle h2 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    padding: 20px 0px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+.TableContainer {
+    margin-top: 40px;
+}

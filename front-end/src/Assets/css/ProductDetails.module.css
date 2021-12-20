@@ -121,6 +121,7 @@
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .ProductButton {
@@ -179,3 +180,6 @@
     padding-left: 20px;
     padding-top: 20px;
 }
+
+
+/* product tab section styling */

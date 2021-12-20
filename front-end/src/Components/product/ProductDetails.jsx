@@ -10,6 +10,7 @@ import four from '../../Assets/images/product/04.jpg';
 import styles from '../../Assets/css/ProductDetails.module.css';
 import { BsHeart } from "react-icons/bs";
 import Product from './Product';
+import ProductContent from './ProductContent';
 
 class ProductDetails extends Component {
     constructor(props) {
@@ -91,7 +92,7 @@ class ProductDetails extends Component {
                                 </Accordion.Item>
 
                                 <Accordion.Item eventKey="1">
-                                    <Accordion.Header><h2>Product Description</h2></Accordion.Header>
+                                    <Accordion.Header><h2>Product Short Description</h2></Accordion.Header>
                                     <Accordion.Body>
                                 <p className={styles.ProductDescription}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -110,6 +111,12 @@ class ProductDetails extends Component {
                             </div>
 
                             </div>
+                         </Col>
+                     </Row>
+
+                     <Row>
+                         <Col md={12}>
+                             <ProductContent />
                          </Col>
                      </Row>
                 </Container>

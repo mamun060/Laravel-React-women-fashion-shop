@@ -12,6 +12,7 @@ import LoginPage from './Pages/LoginPage';
 import RegistrationPage from './Pages/RegistrationPage';
 import CartPage from '../src/Pages/CartPage.jsx';
 import ProductDetailsPage from './Pages/ProductDetailspage';
+import CheckoutPage from './Pages/CheckoutPage';
 
 class App extends Component {
  render(){
@@ -25,6 +26,7 @@ class App extends Component {
          <Route path="/signin" element={<RegistrationPage />} />
          <Route path="/cart" element={<CartPage />} />
          <Route path="/" element={<ProductDetailsPage />} />
+         <Route path="/checkout" element={<CheckoutPage />} />
       </Routes>
     </div>
   );
