@@ -1,0 +1,123 @@
+.ContactFormContainer {
+    padding: 50px 0;
+}
+.FormSide {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.InputStyling {
+    border: 1px solid #ecf0f1;
+    margin: 20px 0;
+    background-color: #F3F8FC;
+}
+
+.InputStyling svg {
+    color: red;
+}
+
+.InputStyling input {
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    background-color: #F3F8FC;
+}
+
+.InputStyling input:focus {
+    outline: none;
+}
+
+.InputStyling input::placeholder {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.TextareaStyling {
+    border: 1px solid #ecf0f1;
+    margin: 20px 0;
+    background-color: #F3F8FC;
+}
+
+.TextareaStyling textarea {
+    width: 100%;
+    border: none;
+    background-color: #F3F8FC;
+}
+
+.TextareaStyling textarea::placeholder {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.TextareaStyling textarea:focus {
+    outline: none;
+}
+
+.ButtonStying {
+    
+    text-align: left;
+}
+
+.ButtonStying input {
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 12px 60px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px 0px;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.9;
+}
+
+.ButtonStying input:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.ContentSide {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 80%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .ContentSide {
+    padding: 10px;
+    margin: 20px 10px;
+    width: 94%;
+    }
+}
+
+.IconStyling {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.IconStyling svg {
+    color: #fff;
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.ContentStyling {
+    padding-left: 10px;
+}
+
+.ContentStyling p {
+    color: #000;
+    font-size: 16px;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+}

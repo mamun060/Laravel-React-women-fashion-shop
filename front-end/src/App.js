@@ -13,20 +13,26 @@ import RegistrationPage from './Pages/RegistrationPage';
 import CartPage from '../src/Pages/CartPage.jsx';
 import ProductDetailsPage from './Pages/ProductDetailspage';
 import CheckoutPage from './Pages/CheckoutPage';
+import CategoryPage from './Pages/CategoryPage';
+import SearchListingPage from './Pages/SearchListingPage';
+import ContactPage from './Pages/ContactPage';
 
 class App extends Component {
  render(){
   return (
     <div className="App">
       <Routes>
-         <Route path="/home" element={<HomePage />} />
+         <Route path="/" element={<HomePage />} />
          <Route path="/about" element={<AboutPage />} />
          <Route path="/product" element={<ProductPage />} />
          <Route path="/login" element={<LoginPage />} />
          <Route path="/signin" element={<RegistrationPage />} />
          <Route path="/cart" element={<CartPage />} />
-         <Route path="/" element={<ProductDetailsPage />} />
+         <Route path="/productdetails" element={<ProductDetailsPage />} />
          <Route path="/checkout" element={<CheckoutPage />} />
+         <Route path="/category" element={<CategoryPage />} />
+         <Route path="/searchlistng" element={<SearchListingPage />} />
+         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </div>
   );
