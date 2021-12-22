@@ -24,7 +24,6 @@ class TopHeader extends Component {
                                     <li className={styles.ListIineStyle}><a>Contact Us</a></li>
                                     </ul>
                                 </li>
-                                <li className={styles.ListIineStyle}><Link to="#">Portfolio</Link></li>
                                 <li className={styles.ListIineStyle}><Link to="/contact">Contact Us</Link></li>
                             </ul>
                         </nav>

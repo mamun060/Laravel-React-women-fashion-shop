@@ -11,6 +11,7 @@ import styles from '../../Assets/css/ProductDetails.module.css';
 import { BsHeart } from "react-icons/bs";
 import Product from './Product';
 import ProductContent from './ProductContent';
+import { Link } from 'react-router-dom';
 
 class ProductDetails extends Component {
     constructor(props) {
@@ -66,8 +67,8 @@ class ProductDetails extends Component {
                                      </ul>
                                  </div>
                                  <div className={styles.ProductButton}>
-                                 <Button variant="primary">Add To Card</Button>
-                                 <Button variant="danger">Buy Now</Button>
+                                 <Button variant="primary"><Link to="#">Add To Card</Link></Button>
+                                 <Button variant="danger"><Link to="/checkout">Buy Now</Link></Button>
                                  <a href='#'><BsHeart /></a>
                                  </div>
                              

@@ -9,7 +9,7 @@ import four from '../../Assets/images/product/04.jpg';
 import { BsHeart } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
 import { BsCart2 } from "react-icons/bs";
-
+import { Link } from 'react-router-dom';
 
 class Product extends Component {
 
@@ -25,7 +25,8 @@ class Product extends Component {
                     <Row className={styles.ProductContainer}>
 
                         <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                           <Card className={styles.CardStyle}>
+                        <Link to="/productdetails">
+                        <Card className={styles.CardStyle}>
                             <img className={styles.ProductImg} src={one} alt="" />
                             <Card.Body>
 
@@ -45,6 +46,7 @@ class Product extends Component {
 
                             </Card.Body>
                             </Card>
+                        </Link>
                         </Col>
                         <Col lg={3} xl={3} md={3} sm={6} xs={6}>
                            <Card className={styles.CardStyle}>

@@ -1,0 +1,131 @@
+.CartPageContainer {
+    padding: 50px 0;
+}
+.CartPageLeftTitle {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 0px 10px 30px;
+    color: #000;
+}
+.LeftSide {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.LeftSide h2 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 10px 0;
+}
+.ProductContent img {
+    width: 100px;
+    height: 100px;
+}
+.ProductContent p {
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 10px 0;
+}
+.removeIcon svg {
+    width: 25px;
+    height: 25px;
+    color: red;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* Right site styling */
+.RightSide {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.CartPageRightTitle {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+    color: #000;
+}
+.RightSectionOne h4{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-align: left;
+    padding-left: 10px;
+}
+.RightSectionOne p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.RightSectionTwo {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dcdde1;
+    padding: 10px 0px;
+}
+
+.RightSectionTwo p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 8px;
+}
+
+.RightSectionThree {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #dcdde1;
+}
+
+.RightSectionThree h4 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-align: left;
+    padding-left: 10px;
+}
+.RightSectionThree p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.CheckoutButton {
+    background-color: red;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.CheckoutButton a {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}

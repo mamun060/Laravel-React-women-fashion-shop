@@ -14,7 +14,7 @@ class CopyRight extends Component {
             <Fragment>
                 <Container fluid={true} className={styles.CopyRightContainer}>
                     <div className={styles.CopyRightStyle}>
-                        <p><a href={'#'}>© 2020 YELLOW by BEXIMCO. All Rights Reserved.</a></p>
+                        <p><a href={'#'}>© 2022 VubonJore by Themeshaper. All Rights Reserved.</a></p>
                         <img src="https://shasmul.com/wp-content/uploads/2021/08/Footer-Logo.png" alt=""></img>
                     </div>
                 </Container>
