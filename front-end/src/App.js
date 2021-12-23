@@ -16,6 +16,9 @@ import CheckoutPage from './Pages/CheckoutPage';
 import CategoryPage from './Pages/CategoryPage';
 import SearchListingPage from './Pages/SearchListingPage';
 import ContactPage from './Pages/ContactPage';
+import WishlistPage from './Pages/WishListPage';
+import MyAccountPage from './Pages/MyAccountPage';
+
 
 class App extends Component {
  render(){
@@ -33,6 +36,12 @@ class App extends Component {
          <Route path="/category" element={<CategoryPage />} />
          <Route path="/searchlistng" element={<SearchListingPage />} />
          <Route path="/contact" element={<ContactPage />} />
+
+         <Route path="/wishlist" element={<WishlistPage />} /> 
+
+         {/** User Dashboard page route below */}
+         <Route path="/myaccount" element={<MyAccountPage />} />
+
       </Routes>
     </div>
   );

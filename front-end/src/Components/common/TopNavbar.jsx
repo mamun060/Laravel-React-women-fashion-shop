@@ -29,7 +29,7 @@ class TopNavbar extends Component {
 
                        <Col xl={3} md={3}>
                            <div className={styles.HeaderIcons}>
-                                <p className={styles.HeaderIcon}><Link to="/cart"><BsHeart /></Link></p>
+                                <p className={styles.HeaderIcon}><Link to="/wishlist"><BsHeart /></Link></p>
                                 <p className={styles.HeaderIcon}><Link to="/cart"><BsCart2 /></Link></p>
                                 <p className={styles.HeaderIcon}><Link to="/login"><MdManageAccounts /></Link> </p>
                             </div>

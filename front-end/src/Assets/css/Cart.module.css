@@ -22,10 +22,12 @@
     text-align: center;
     padding: 10px 0;
 }
+
 .ProductContent img {
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 120px;
 }
+
 .ProductContent p {
     font-size: 14px;
     font-weight: 400;
@@ -34,6 +36,7 @@
     text-align: center;
     padding: 10px 0;
 }
+
 .removeIcon svg {
     width: 25px;
     height: 25px;

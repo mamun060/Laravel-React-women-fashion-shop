@@ -1,0 +1,81 @@
+
+.MainContainer {
+  padding: 50px 0px;
+}
+
+.leftSide {
+  background-color: #fff;
+  margin: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.FisrtMenuTitle {
+  background-color: red;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.FisrtMenuTitle a{
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.leftSide .HorizentalStyle ul{
+  padding-left: 10px!important;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.HorizentalStyle ul li {
+  list-style-type: none;
+  text-align: left;
+  padding-top: 5px;
+}
+.HorizentalStyle ul li a{
+  text-align: left;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 8px;
+  cursor: pointer;
+}
+.HorizentalStyle ul li a:hover{
+  color: #333;
+}
+
+/* start right side styling */
+.rightSide {
+  background-color: #fff;
+  margin: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.cardBody {
+  overflow: auto;
+  white-space: nowrap;
+}
+.CardHeader {
+  background-color: red;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.CardHeader .CardTitle {
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 0px;
+}
+
+tr.tableRowScrolling {
+  width: 700px!important;
+  overflow: scroll!important;
+  white-space: nowrap!important;
+}
+
+.TableStyling tr th{
+  display: inline-block;
+  padding: 0px 23px;
+  padding-bottom: 10px;
+}

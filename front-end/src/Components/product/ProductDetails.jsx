@@ -67,9 +67,9 @@ class ProductDetails extends Component {
                                      </ul>
                                  </div>
                                  <div className={styles.ProductButton}>
-                                 <Button variant="primary"><Link to="#">Add To Card</Link></Button>
+                                 <Button variant="primary"><Link to="/cart">Add To Card</Link></Button>
                                  <Button variant="danger"><Link to="/checkout">Buy Now</Link></Button>
-                                 <a href='#'><BsHeart /></a>
+                                 <Link to='/wishlist'><BsHeart /></Link>
                                  </div>
                              
 
