@@ -18,12 +18,14 @@ import SearchListingPage from './Pages/SearchListingPage';
 import ContactPage from './Pages/ContactPage';
 import WishlistPage from './Pages/WishListPage';
 import MyAccountPage from './Pages/MyAccountPage';
+import MyOrderPage from './Components/MyAccount/MyOrderPage';
 
 
 class App extends Component {
  render(){
   return (
     <div className="App">
+
       <Routes>
          <Route path="/" element={<HomePage />} />
          <Route path="/about" element={<AboutPage />} />
@@ -41,8 +43,9 @@ class App extends Component {
 
          {/** User Dashboard page route below */}
          <Route path="/myaccount" element={<MyAccountPage />} />
-
+         <Route path="/myorder" element={<MyOrderPage />} />
       </Routes>
+
     </div>
   );
  }
