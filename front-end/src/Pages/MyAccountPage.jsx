@@ -4,6 +4,7 @@ import CopyRight from '../Components/common/CopyRight';
 import TopHeader from '../Components/common/NavHeader';
 import TopFooter from '../Components/common/TopFooter';
 import TopNavbar from '../Components/common/TopNavbar';
+import MyOrder from '../Components/MyAccount/MyOrder';
 import UserDashboard from '../Components/MyAccount/UserDashboard';
 
 class MyAccountPage extends Component {
@@ -18,7 +19,8 @@ class MyAccountPage extends Component {
                 <TopHeader />
                 <TopNavbar />
 
-                <UserDashboard />
+                {/* <UserDashboard /> */}
+                <MyOrder />
 
                 <TopFooter />
                 <CopyRight /> 

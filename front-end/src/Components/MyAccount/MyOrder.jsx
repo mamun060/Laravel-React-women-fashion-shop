@@ -5,9 +5,8 @@ import MyAccount from './MyAccount';
 import Profile from './Profile';
 import styles from '../../Assets/css/MyAccount.module.css';
 import Address from './Address';
-//import ChangePassword from './ChangePassword';
-import Registration from '../others/Registration';
-import Login from '../others/Login';
+import ChangePassword from './ChangePassword';
+
 
 class MyOrder extends Component {
     constructor(props) {
@@ -23,7 +22,8 @@ class MyOrder extends Component {
                      <Col md={12}>
                      <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                         <Row>
-                            <Col sm={3}>
+                            <Col sm={2} className={styles.leftSide}>
+
                             <Nav variant="pills" className="flex-column">
                                 <Nav.Item>
                                    <Nav.Link eventKey="first">My Account</Nav.Link>
@@ -38,23 +38,20 @@ class MyOrder extends Component {
                                     <Nav.Link eventKey="four">My Address</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="five">My Wishlist</Nav.Link>
+                                    <Nav.Link eventKey="five">Change Password</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="six">Change Password</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="seven">Logout</Nav.Link>
-                                </Nav.Item>
+
                             </Nav>
                             </Col>
-                            <Col sm={9}>
+
+                            <Col sm={9} className={styles.rightSide}>
                             <Tab.Content>
+
                                 <Tab.Pane eventKey="first">
                                      <MyAccount />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    <Profile />
+                                    <MyAccount />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="three">
                                     <Profile />
@@ -63,14 +60,9 @@ class MyOrder extends Component {
                                     <Address />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="five">
-                                    <Profile />
+                                    <ChangePassword />
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="six">
-                                    <Registration />
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="seven">
-                                    <Login />
-                                </Tab.Pane>
+                
                             </Tab.Content>
                             </Col>
                         </Row>

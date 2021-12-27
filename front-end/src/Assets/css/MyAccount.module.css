@@ -5,12 +5,13 @@
 
 .leftSide {
   background-color: #fff;
-  margin: 10px;
+  margin: 5px;
+  padding: 5px 0px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 .FisrtMenuTitle {
-  background-color: red;
+  background-color: #0D6EFD;
   text-align: left;
   padding-left: 10px;
   padding-bottom: 10px;
@@ -47,7 +48,8 @@
 /* start right side styling */
 .rightSide {
   background-color: #fff;
-  margin: 10px;
+  margin: 5px;
+  padding: 5px 0px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 .cardBody {
@@ -55,7 +57,7 @@
   white-space: nowrap;
 }
 .CardHeader {
-  background-color: red;
+  background-color: #0D6EFD;
   text-align: left;
   padding-left: 10px;
 }
@@ -77,5 +79,42 @@ tr.tableRowScrolling {
 .TableStyling tr th{
   display: inline-block;
   padding: 0px 23px;
+  padding-bottom: 10px;
+}
+
+/* add styling for profile component */
+.ProfileContainer {
+  padding: 20px;
+}
+
+.ProfileTitle h4{
+  font-size: 18px;
+  color: #000;
+  padding: 10px 0px;
+  text-align: left;
+}
+
+.FormLabels {
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  color: #000;
+}
+
+.ProfileButton {
+  display: flex;
+}
+
+/* My Address styling section */
+
+tr.AddressRowScrolling {
+  width: 700px!important;
+  overflow: scroll!important;
+  white-space: nowrap!important;
+}
+
+.AddressStyling tr th{
+  display: inline-block;
+  padding: 0px 45px;
   padding-bottom: 10px;
 }
