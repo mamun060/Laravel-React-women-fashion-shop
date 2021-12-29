@@ -54,3 +54,35 @@ a {
   padding: 6px 1.25rem!important;
 }
 
+/* mobile menu css for modifying bootstrap */
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: flex-end;
+  padding-top: 7px;
+  margin: 2px;
+  float: right;
+  padding-right: 10px;
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+  padding: 2px;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 30px;
+  height: 27px;
+}
+
+.offcanvas-end {
+  top: 0;
+  right: 0;
+  width: 250px;
+  border-left: 1px solid rgba(0,0,0,.2);
+  transform: translateX(100%);
+}

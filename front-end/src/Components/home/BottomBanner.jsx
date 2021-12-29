@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Col, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import styles from '../../Assets/css/HomeSection.module.css';
 import one from '../../Assets/images/bottomBanner/01.jpg';
 

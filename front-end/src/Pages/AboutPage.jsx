@@ -5,6 +5,9 @@ import About from '../Components/others/About';
 import TopFooter from '../Components/common/TopFooter';
 import CopyRight from '../Components/common/CopyRight';
 import Announcement from '../Components/common/Announcement';
+import styles from '../../src/Assets/css/responsive.module.css';
+import MobileTopBar from '../Components/common/MobileTopBar';
+import MobileNavbar from '../Components/common/MobileNavbar';
 
 class AboutPage extends Component {
     constructor(props) {
@@ -14,9 +17,16 @@ class AboutPage extends Component {
     render() { 
         return ( 
             <Fragment>
-                 <Announcement />
-                 <TopNavbar />
-                <NavHeader />
+                  <div className={styles.Desktop}>
+                    <Announcement />
+                    <TopNavbar />
+                    <NavHeader />
+                </div>
+                
+                 <div className={styles.Mobile}>
+                     <MobileTopBar />
+                     <MobileNavbar />
+                 </div>
 
                 <About />
 

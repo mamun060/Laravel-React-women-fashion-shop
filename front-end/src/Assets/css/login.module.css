@@ -8,6 +8,10 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 300px) {
+    .LoginFormWrap{
+        padding: 5px 0px;
+        margin: 0px;
+     }
     .FormStyling{
        margin: 20px;
        padding: 20px;

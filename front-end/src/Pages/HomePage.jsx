@@ -16,15 +16,26 @@ import BigBannerBottom from '../Components/home/BigBannerBottom';
 import BigBanner from '../../src/Assets/images/bottomBanner/Untitled-16_1200x.jpg';
 import CopyRight from '../Components/common/CopyRight';
 import Announcement from '../Components/common/Announcement';
-
+import styles from '../../src/Assets/css/responsive.module.css';
+import MobileTopBar from '../Components/common/MobileTopBar';
+import MobileNavbar from '../Components/common/MobileNavbar';
 
 class HomePage extends Component {
     render() { 
         return (
             <Fragment>
-                 <Announcement />
-                <TopNavbar />
-                <NavHeader />
+
+                <div className={styles.Desktop}>
+                    <Announcement />
+                    <TopNavbar />
+                    <NavHeader />
+                </div>
+                
+                 <div className={styles.Mobile}>
+                     <MobileTopBar />
+                     <MobileNavbar />
+                 </div>
+                
                 <TopSlider />
                 <SectionOne 
                 imgOne={Two}

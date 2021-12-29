@@ -19,18 +19,31 @@
 
 .LeftImages {
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin: 8px;
 }
 .RightImages {
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin:10px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px)  {
+    .LeftImages {
+        width: 100%;
+        height: 300px;
+        margin: 5px 0px;
+    }
+    .RightImages {
+        width: 100%;
+        height: 300px;
+        margin: 5px 0px;
+    }
 }
 /* second banner section */
 .SecondBanner {
     width: 100%;
-    height: 200px;
+    height: 208px;
     margin:5px
 }
 
@@ -41,9 +54,14 @@
 
 .BigBannerImg {
     width: 100%;
-    height: 450px;
+    height: 500px;
 }
 
+@media only screen and (max-width: 767px) and (min-width: 320px)  {
+    .BigBannerImg {
+        height: 200px;
+    }
+}
 /* Bottom Banner section */
 .GridDesign {
     display: grid;
@@ -62,6 +80,11 @@
 }
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .GridDesign {
-        grid-template-columns: 4fr 4fr 4fr;
+        height: auto;
+        width: auto;
+    }
+    .GridDesign {
+        grid-template-columns: 6fr 6fr;
     }
 }
+

@@ -2,9 +2,12 @@ import React, { Component, Fragment } from 'react'
 import Category from '../Components/Category/Category';
 import Announcement from '../Components/common/Announcement';
 import CopyRight from '../Components/common/CopyRight';
-import TopHeader from '../Components/common/NavHeader';
+import NavHeader from '../Components/common/NavHeader';
 import TopFooter from '../Components/common/TopFooter';
 import TopNavbar from '../Components/common/TopNavbar';
+import MobileTopBar from '../Components/common/MobileTopBar';
+import MobileNavbar from '../Components/common/MobileNavbar';
+import styles from '../../src/Assets/css/responsive.module.css';
 
 class CategoryPage extends Component {
     constructor(props) {
@@ -14,9 +17,19 @@ class CategoryPage extends Component {
     render() { 
         return (
             <Fragment>
-                <Announcement />
-                <TopHeader />
-                <TopNavbar />
+
+`               <div className={styles.Desktop}>
+                    <Announcement />
+                    <TopNavbar />
+                    <NavHeader />
+                </div>
+                
+                 <div className={styles.Mobile}>
+                     <MobileTopBar />
+                     <MobileNavbar />
+                 </div>
+
+
                 <Category />
                 <TopFooter />
                 <CopyRight />

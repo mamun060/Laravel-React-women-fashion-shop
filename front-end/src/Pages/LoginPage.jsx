@@ -6,6 +6,8 @@ import CopyRight from '../Components/common/CopyRight';
 import Login from '../../src/Components/others/Login';
 import styles from '../../src/Assets/css/responsive.module.css';
 import Announcement from '../Components/common/Announcement';
+import MobileTopBar from '../Components/common/MobileTopBar';
+import MobileNavbar from '../Components/common/MobileNavbar';
 
 class LoginPage extends Component {
     constructor(props) {
@@ -18,12 +20,13 @@ class LoginPage extends Component {
 
                 <div className={styles.Desktop}>
                     <Announcement />
-                   <TopNavbar />
-                   <NavHeader /> 
+                    <TopNavbar />
+                    <NavHeader />
                 </div>
                 
                  <div className={styles.Mobile}>
-
+                     <MobileTopBar />
+                     <MobileNavbar />
                  </div>
                  
                     <Login />

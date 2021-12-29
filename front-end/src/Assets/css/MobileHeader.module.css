@@ -1,0 +1,80 @@
+.MobileTopBarDevide {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+/* Mobile topbar left styling */
+
+.SearchSection input:focus {
+    outline: none;
+}
+
+.SearchSection {
+    background-color: #ecf0f1;
+    margin-top: 11px;
+    margin-left: 10px;
+    border-radius: 3px;
+    margin-right: -15px;
+}
+
+.SearchSection input[type="text"] {
+    width: 120px;
+    outline: none;
+    border: none;
+    background-color: #ecf0f1;
+    height: 33px;
+}
+
+/* header icon right side */
+
+.HeaderIcons p {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #bdc3c7;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+.HeaderIcons p a {
+    font-size: 14px;
+    color: #000;
+}
+
+.HeaderIcons p:hover{
+    transform: scale(1.1);
+}
+
+
+/* mobile navbar styling start from here */
+.NavRowContainer {
+    background-color: #3498DB;
+    padding: 0px 5px;
+    height: 50px;
+}
+.NavRowStyling {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 8px;
+}
+.logo h2 a{
+    font-family:  'Courier New';
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* right side of mobile header*/
