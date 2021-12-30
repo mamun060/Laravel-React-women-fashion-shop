@@ -13,7 +13,7 @@ class MobileNavbar extends Component {
     render() { 
         return (
             <Fragment>
-                <Container className={styles.NavRowContainer}>
+                <Container className={styles.NavRowContainer} fluid={true}>
 
                     <Row className={styles.NavRowStyling}>
 

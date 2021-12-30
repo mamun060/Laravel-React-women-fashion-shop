@@ -8,6 +8,7 @@ import Announcement from '../Components/common/Announcement';
 import ProductDetails from '../Components/product/ProductDetails';
 import MobileTopBar from '../Components/common/MobileTopBar';
 import MobileNavbar from '../Components/common/MobileNavbar';
+import MobileProductDetails from '../Components/product/MobileProductDetails';
 
 class ProductDetailsPage extends Component {
     constructor(props) {
@@ -21,14 +22,16 @@ class ProductDetailsPage extends Component {
                     <Announcement />
                     <TopNavbar />
                     <NavHeader />
+                    <ProductDetails />
                 </div>
                 
                  <div className={styles.Mobile}>
                      <MobileTopBar />
                      <MobileNavbar />
+                     <MobileProductDetails />
                  </div>
                  
-                  <ProductDetails />
+                  
                 <TopFooter />
                 <CopyRight />
             </Fragment>

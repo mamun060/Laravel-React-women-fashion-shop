@@ -17,10 +17,9 @@ class Cart extends Component {
             <Fragment>
               <Container className={styles.CartPageContainer}>
                  <Row>
-
-                 <Col lg={8} xl={8} md={8} xm={12}>
+                 <Col Col lg={8} xl={8} md={8} xm={12}>
                      <div className={styles.LeftSide}>
-                         <Row>
+                         <Row className={styles.MobileCartRowStyle}>
                              <h4 className={styles.CartPageLeftTitle}>My Cart</h4>
                              <Col md={4}>
                                  <div className={styles.ProductContent}>

@@ -24,96 +24,106 @@ class Product extends Component {
                 <Container fluid={true} >
                     <Row className={styles.ProductContainer}>
 
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                        <Link to="/productdetails">
+                        <Col lg={3} xl={3} md={4} sm={6} xs={12}>
+                        <Link to="#">
                         <Card className={styles.CardStyle}>
                             <img className={styles.ProductImg} src={one} alt="" />
                             <Card.Body>
 
                                 <div className={styles.ProductInfo}> 
                                     <div className={styles.PriceInfo}>
-                                        <h2 className={styles.ProductPrice}>Tk. 100.00  <span><del>Tk. 120.00</del></span></h2>
-                                        <p><a href="#">Buy Now</a></p>
+                                    <h2 className={styles.ProductPrice}>Tk. 100.00 {/*<span><del>Tk.120.00</del></span>*/} </h2> 
+                                        <p><Link to="/checkout">Buy Now</Link></p>
                                     </div>
-                                <p className={styles.ProductTitle}><a href='#'>This elegant, 100% viscose Kabli This elegant, 100% viscose</a></p>
+                                <p className={styles.ProductTitle}><Link to="/productdetails">This elegant, 100% viscose Kabli This elegant, 100% viscose</Link></p>
                                 </div>
 
                                 <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsHeart /></a></p>
+                                    <p className={styles.Wishlist}><Link to="/wishlist"> <BsHeart /></Link></p>
                                     <p className={styles.Search}><a href="#"><BsSearch /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCart2 /></a></p>
+                                    <p className={styles.AddToCard}><Link to="/cart"><BsCart2 /></Link></p>
                                 </div>
 
                             </Card.Body>
                             </Card>
                         </Link>
                         </Col>
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                           <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={two} alt="" />
+
+                        <Col lg={3} xl={3} md={4} sm={6} xs={12}>
+                        <Link to="#">
+                        <Card className={styles.CardStyle}>
+                            <img className={styles.ProductImg} src={one} alt="" />
                             <Card.Body>
 
                                 <div className={styles.ProductInfo}> 
                                     <div className={styles.PriceInfo}>
-                                        <h2 className={styles.ProductPrice}>Tk. 100.00  <span><del>Tk. 120.00</del></span></h2>
-                                        <p><a href="#">Buy Now</a></p>
+                                    <h2 className={styles.ProductPrice}>Tk. 100.00 {/*<span><del>Tk.120.00</del></span>*/} </h2> 
+                                        <p><Link to="/checkout">Buy Now</Link></p>
                                     </div>
-                                <p className={styles.ProductTitle}><a href='#'>This elegant, 100% viscose Kabli This elegant, 100% viscose</a></p>
+                                <p className={styles.ProductTitle}><Link to="/productdetails">This elegant, 100% viscose Kabli This elegant, 100% viscose</Link></p>
                                 </div>
 
                                 <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsHeart /></a></p>
+                                    <p className={styles.Wishlist}><Link to="/wishlist"> <BsHeart /></Link></p>
                                     <p className={styles.Search}><a href="#"><BsSearch /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCart2 /></a></p>
+                                    <p className={styles.AddToCard}><Link to="/cart"><BsCart2 /></Link></p>
                                 </div>
 
                             </Card.Body>
                             </Card>
+                        </Link>
                         </Col>
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                           <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={three} alt="" />
+
+                        <Col lg={3} xl={3} md={4} sm={6} xs={12}>
+                        <Link to="#">
+                        <Card className={styles.CardStyle}>
+                            <img className={styles.ProductImg} src={one} alt="" />
                             <Card.Body>
 
                                 <div className={styles.ProductInfo}> 
                                     <div className={styles.PriceInfo}>
-                                        <h2 className={styles.ProductPrice}>Tk. 100.0  <span><del>Tk. 120.0</del></span></h2>
-                                        <p><a href="#">Buy Now</a></p>
+                                    <h2 className={styles.ProductPrice}>Tk. 100.00 {/*<span><del>Tk.120.00</del></span>*/} </h2> 
+                                        <p><Link to="/checkout">Buy Now</Link></p>
                                     </div>
-                                <p className={styles.ProductTitle}><a href='#'>This elegant, 100% viscose Kabli This elegant, 100% viscose</a></p>
+                                <p className={styles.ProductTitle}><Link to="/productdetails">This elegant, 100% viscose Kabli This elegant, 100% viscose</Link></p>
                                 </div>
 
                                 <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsHeart /></a></p>
+                                    <p className={styles.Wishlist}><Link to="/wishlist"> <BsHeart /></Link></p>
                                     <p className={styles.Search}><a href="#"><BsSearch /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCart2 /></a></p>
+                                    <p className={styles.AddToCard}><Link to="/cart"><BsCart2 /></Link></p>
                                 </div>
 
                             </Card.Body>
                             </Card>
+                        </Link>
                         </Col>
-                        <Col lg={3} xl={3} md={3} sm={6} xs={6}>
-                           <Card className={styles.CardStyle}>
-                            <img className={styles.ProductImg} src={four} alt="" />
+
+                        <Col lg={3} xl={3} md={4} sm={6} xs={12}>
+                        <Link to="#">
+                        <Card className={styles.CardStyle}>
+                            <img className={styles.ProductImg} src={one} alt="" />
                             <Card.Body>
 
                                 <div className={styles.ProductInfo}> 
                                     <div className={styles.PriceInfo}>
-                                        <h2 className={styles.ProductPrice}>Tk. 100.00  <span><del>Tk. 120.00</del></span></h2>
-                                        <p><a href="#">Buy Now</a></p>
+                                    <h2 className={styles.ProductPrice}>Tk. 100.00 {/*<span><del>Tk.120.00</del></span>*/} </h2> 
+                                        <p><Link to="/checkout">Buy Now</Link></p>
                                     </div>
-                                <p className={styles.ProductTitle}><a href='#'>This elegant, 100% viscose Kabli This elegant, 100% viscose</a></p>
+                                <p className={styles.ProductTitle}><Link to="/productdetails">This elegant, 100% viscose Kabli This elegant, 100% viscose</Link></p>
                                 </div>
 
                                 <div className={styles.ProductTools}>
-                                    <p className={styles.Wishlist}><a href="#"> <BsHeart /></a></p>
+                                    <p className={styles.Wishlist}><Link to="/wishlist"> <BsHeart /></Link></p>
                                     <p className={styles.Search}><a href="#"><BsSearch /></a></p>
-                                    <p className={styles.AddToCard}><a href="#"><BsCart2 /></a></p>
+                                    <p className={styles.AddToCard}><Link to="/cart"><BsCart2 /></Link></p>
                                 </div>
 
                             </Card.Body>
                             </Card>
+                        </Link>
                         </Col>
+
 
                     </Row>
                     

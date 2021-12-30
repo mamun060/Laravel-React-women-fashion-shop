@@ -132,3 +132,12 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+/* mobile device media query styling */
+
+/* @media  screen  and (max-width: 767px) and (min-width: 320px){
+    .MobileCartRowStyle div {
+        display: grid;
+        grid-template-columns: 4fr 2fr 2fr 2fr 1fr;
+    }
+} */

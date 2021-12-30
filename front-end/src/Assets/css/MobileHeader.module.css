@@ -1,6 +1,7 @@
 .MobileTopBarDevide {
     display: grid;
     grid-template-columns: 6fr 6fr;
+    padding: 5px 0px;
 }
 
 /* Mobile topbar left styling */
@@ -56,7 +57,8 @@
 .NavRowContainer {
     background-color: #3498DB;
     padding: 0px 5px;
-    height: 50px;
+    height: 60px;
+    margin-top: 5px;
 }
 .NavRowStyling {
     display: grid;
@@ -67,7 +69,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 8px;
+    padding-top: 15px;
 }
 .logo h2 a{
     font-family:  'Courier New';

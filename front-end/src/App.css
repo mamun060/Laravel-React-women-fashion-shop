@@ -71,6 +71,8 @@ a {
   color: #fff;
   border-color: #fff;
   padding: 2px;
+  margin-right: 3px;
+  margin-top: 5px;
 }
 
 .navbar-toggler-icon {
@@ -86,3 +88,19 @@ a {
   border-left: 1px solid rgba(0,0,0,.2);
   transform: translateX(100%);
 }
+
+
+/* Mobile Product details page some css code */
+
+ol, ul {
+  padding-left: 4px;
+}
+
+/* end Mobile Product details page styling */
+
+/* Mobile navbar styling */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("https://img.icons8.com/material-rounded/24/000000/menu.png");
+  color: tomato;
+}
+/* end mobile navbar styling*/

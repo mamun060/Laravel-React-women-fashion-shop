@@ -12,7 +12,7 @@ class TopSlider extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            speed: 100,
+            speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1
         };
