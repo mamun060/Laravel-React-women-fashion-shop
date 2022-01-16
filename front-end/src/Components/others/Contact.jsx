@@ -4,14 +4,19 @@ import styles from '../../Assets/css/Contact.module.css';
 import { BsFillPersonFill, BsFillTelephoneFill, BsFillPhoneFill } from 'react-icons/bs';
 import {MdEmail, MdLocationOn} from 'react-icons/md';
 
-
-
 class Contact extends Component {
+
     constructor(props) {
         super(props);
         this.state = {  }
     }
-    render() { 
+
+    render() {
+
+        const handleSubmit = (event) => {
+            event.preventDefault();
+        }
+
         return (
             <Fragment>
                 <Container className={styles.ContactFormContainer}>
@@ -19,7 +24,7 @@ class Contact extends Component {
                         <Col  lg ={7} xl={7} md={7} xs={12}>
                             <div className={styles.FormSide}>
                         
-                            <form>
+                            <form onSubmit={handleSubmit}>
 
                               <div className={styles.InputStyling}>
                                   <BsFillPersonFill/><input className={styles.inputs} type="text" name="name" placeholder='Your Name' />

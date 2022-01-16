@@ -14,8 +14,8 @@ class Checkout extends Component {
                 <Container className={styles.CheckoutContainer}>
                     
 
-                    <Form>
-                    <Row>
+                    <Form className={styles.MobileFormStyling}>
+                     <Row>
                         <Col md={7} sm={7}>
                             <div className={styles.leftTitle}>
                                 <h2>Billing Address</h2>

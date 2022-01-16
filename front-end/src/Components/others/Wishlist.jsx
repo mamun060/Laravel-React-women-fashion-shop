@@ -20,25 +20,25 @@ class Wishlist extends Component {
                         <Col md={10} className={styles.MiddleSectionContainer}>
                             <h2>My WishLIst</h2>
                             <Row className={styles.innerRow}>
-                                <Col md={3}>
+                                <Col md={3} className={styles.MobileColWidth}>
                                     <div className={styles.sectionTitle}>
                                         <h4>Product</h4>
                                     </div>
                                 </Col>
 
-                                <Col md={3}>
+                                <Col md={3} className={styles.MobileColWidth}>
                                     <div className={styles.sectionTitle}>
                                         <h4>Unit Price</h4>
                                     </div>
                                 </Col>
 
-                                <Col md={3}>
+                                <Col md={3} className={styles.MobileColWidth}>
                                     <div className={styles.sectionTitle}>
                                         <h4>Action</h4>
                                     </div>
                                 </Col>
 
-                                <Col md={3}>
+                                <Col md={3} className={styles.MobileColWidth}>
                                     <div className={styles.sectionTitle}>
                                         <h4>Status</h4>
                                     </div>

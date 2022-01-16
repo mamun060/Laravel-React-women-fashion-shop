@@ -34,3 +34,16 @@
     text-align: center;
     padding-bottom: 5px;
 }
+
+@media only screen and (max-width: 767px) and (min-width: 320px)  {
+   .MobileColWidth {
+       width: 25%;
+   }
+   .sectionTitle h4 {
+    font-size: 14px;
+   }
+   .innerRow {
+       padding: 0px 7px;
+   }
+}
+
